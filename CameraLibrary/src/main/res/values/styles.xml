@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/app_base_blue</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+
+    </style>
+
+    <!--    <style name="BackGroundImageView">-->
+    <!--        <item name="android:scaleType">fitXY</item>-->
+    <!--        <item name="android:src">@drawable/bg_image</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="FormTextView">-->
+    <!--        <item name="android:layout_width">wrap_content</item>-->
+    <!--        <item name="android:layout_height">match_parent</item>-->
+    <!--        <item name="android:textSize">@dimen/edit_text_size</item>-->
+    <!--        <item name="android:textColor">@color/colorPrimaryDark</item>-->
+    <!--        <item name="android:gravity">left|center_vertical</item>-->
+    <!--        <item name="android:layout_gravity">left|center_vertical</item>-->
+    <!--        <item name="android:paddingLeft">@dimen/_5sdp</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="AppEditText">-->
+    <!--        <item name="android:layout_width">match_parent</item>-->
+    <!--        <item name="android:layout_height">@dimen/edit_text_height</item>-->
+    <!--        <item name="android:textSize">@dimen/edit_text_size</item>-->
+    <!--        <item name="android:textColor">@color/app_base_blue</item>-->
+    <!--        <item name="android:gravity">center</item>-->
+    <!--        <item name="android:layout_gravity">center</item>-->
+    <!--        <item name="android:padding">10dp</item>-->
+    <!--        <item name="android:inputType">textNoSuggestions</item>-->
+    <!--        <item name="android:lines">2</item>-->
+    <!--        <item name="android:ellipsize">end</item>-->
+    <!--        <item name="android:elevation" tools:targetApi="lollipop">0dp</item>-->
+    <!--        <item name="android:textColorHint">@color/hintColor</item>-->
+    <!--        <item name="android:background">@drawable/app_edit_text_back_white</item>-->
+    <!--    </style>-->
+
+    <style name="RadioButtonStyle">
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+
+
+    </style>
+
+    <style name="CustomDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--    <style name="AppSpinner">-->
+    <!--        <item name="android:layout_width">match_parent</item>-->
+    <!--        <item name="android:layout_height">@dimen/_20sdp</item>-->
+    <!--        <item name="android:textSize">@dimen/_8sdp</item>-->
+    <!--        <item name="android:textColor">@color/editTextColor</item>-->
+    <!--        <item name="android:gravity">center</item>-->
+    <!--        <item name="android:layout_gravity">center</item>-->
+    <!--        <item name="android:padding">@dimen/_2sdp</item>-->
+    <!--        <item name="android:inputType">textNoSuggestions</item>-->
+    <!--        <item name="android:lines">1</item>-->
+    <!--        <item name="android:ellipsize">end</item>-->
+    <!--        <item name="android:elevation" tools:targetApi="lollipop">0dp</item>-->
+    <!--        <item name="android:textColorHint">@color/hintColor</item>-->
+    <!--        <item name="android:background">@drawable/app_edit_text_back_white</item>-->
+    <!--    </style>-->
+
+    <style name="AppButtonBorderlessColored" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MultimagerTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Widget.AppTheme.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.AppTheme.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <!-- Custom dialog style -->
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/round_corner</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="buttonBarStyle">@style/CustomDialogButtonBar</item>
+    </style>
+
+    <!-- Custom button bar style -->
+    <style name="CustomDialogButtonBar" parent="Widget.AppCompat.ButtonBar.AlertDialog">
+        <item name="buttonStyle">@style/CustomDialogButton</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomDialogButton" parent="Widget.AppCompat.Button">
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+</resources>

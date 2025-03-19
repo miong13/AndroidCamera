@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Light blue color, you can change this to any light blue shade -->
+    <solid android:color="#006AFF" />
+</shape>

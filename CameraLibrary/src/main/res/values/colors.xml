@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f0445</color>
+    <color name="colorPrimaryDark">#2c1d78</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="signUpColor">#066e8a</color>
+    <color name="placeholder">#d2d2d2</color>
+    <color name="ic_launcher_background">#d2d2d2</color>
+    <color name="app_base_blue">#0f0445</color>
+    <color name="startColor">#F137A6</color>
+    <color name="centerColor">#F77A85</color>
+    <color name="endColor">#FDBB69</color>
+
+    <color name="appRed">#e75a4c</color>
+    <color name="hintColor">#a7a7a7</color>
+    <color name="editTextColor">@color/colorPrimaryDark</color>
+    <color name="lightGreyColor">#d2d2d2</color>
+
+    <color name="greenColor">#2ea440</color>
+    <color name="darkGreen">#006400</color>
+    <color name="yellowColor">#fdff0a</color>
+    <color name="redColor">#ee000c</color>
+    <color name="orangeColor">#ef4c06</color>
+    <color name="lightOrangeColor">#E08739</color>
+
+    <color name="colorGreyDarker">#4E4E4E</color>
+
+    <color name="custom_progress_bg_color">#EEEEEE</color>
+    <color name="custom_progress_message_color">#6D6D6D</color>
+    <color name="default_text_color">#3e3e3d</color>
+    <color name="default_text_color_checked">#ffffff</color>
+    <color name="default_segment_color">#f8f8f8</color>
+    <color name="default_segment_color_checked">#7f6a93</color>
+    <color name="default_ripple_color">#e4e4e4</color>
+    <color name="default_ripple_color_checked">#c695a4</color>
+    <color name="default_border_color">#e4e4e4</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
