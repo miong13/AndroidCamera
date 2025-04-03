@@ -128,7 +128,7 @@
 
     <!-- Custom dialog style -->
     <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
-        <item name="android:windowBackground">@drawable/round_corner</item>
+        <item name="android:windowBackground">@drawable/mlr_round_corner</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="buttonBarStyle">@style/CustomDialogButtonBar</item>

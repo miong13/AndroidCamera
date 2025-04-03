@@ -27,7 +27,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.markramosonline.cameralibrary.adapters.ThumbnailAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.markramosonline.cameralibrary.R
 
 
 import java.io.File
@@ -260,9 +259,9 @@ class CamModule : Fragment() {
 
         // Change button image based on flash state
         val flashIcon = if (isFlashOn) {
-            R.drawable.flash // Replace with your actual "flash on" image
+            R.drawable.mlr_flash // Replace with your actual "flash on" image
         } else {
-            R.drawable.no_flash // Replace with your actual "flash off" image
+            R.drawable.mlr_no_flash // Replace with your actual "flash off" image
         }
 
         imgFlashButton.setImageResource(flashIcon)

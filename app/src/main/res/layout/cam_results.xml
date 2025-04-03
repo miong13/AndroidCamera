@@ -21,7 +21,7 @@
         android:layout_width="@dimen/_32sdp"
         android:layout_height="@dimen/_32sdp"
         android:visibility="visible"
-        android:src="@drawable/ic_delete_"
+        android:src="@drawable/mlr_ic_delete_"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
